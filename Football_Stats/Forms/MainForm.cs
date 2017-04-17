@@ -82,6 +82,9 @@
 		{
 //			FetchAndWriteAllData();
 
+			CriteriaCMB.Visible = false;
+			CriteriaLbl.Visible = false;
+
 			Init();
 			CreateTeamSelectors();
 			ControlsManager.DrawCounters();

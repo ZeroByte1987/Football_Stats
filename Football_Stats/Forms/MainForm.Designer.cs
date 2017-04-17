@@ -37,7 +37,7 @@
 			this.YearsLbl2 = new System.Windows.Forms.Label();
 			this.CountryCMB = new System.Windows.Forms.ComboBox();
 			this.CriteriaCMB = new System.Windows.Forms.ComboBox();
-			this.label1 = new System.Windows.Forms.Label();
+			this.CriteriaLbl = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.GraphicsPB)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -143,15 +143,15 @@
 			this.CriteriaCMB.TabIndex = 5;
 			this.CriteriaCMB.SelectedIndexChanged += new System.EventHandler(this.CriteriaCMB_SelectedIndexChanged);
 			// 
-			// label1
+			// CriteriaLbl
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label1.Location = new System.Drawing.Point(20, 611);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(27, 20);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "By";
+			this.CriteriaLbl.AutoSize = true;
+			this.CriteriaLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.CriteriaLbl.Location = new System.Drawing.Point(20, 611);
+			this.CriteriaLbl.Name = "CriteriaLbl";
+			this.CriteriaLbl.Size = new System.Drawing.Size(27, 20);
+			this.CriteriaLbl.TabIndex = 1;
+			this.CriteriaLbl.Text = "By";
 			// 
 			// MainForm
 			// 
@@ -166,7 +166,7 @@
 			this.Controls.Add(this.GraphsPanel);
 			this.Controls.Add(this.GraphicsPB);
 			this.Controls.Add(this.YearsLbl2);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.CriteriaLbl);
 			this.Controls.Add(this.YearsLbl);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "MainForm";
@@ -191,6 +191,6 @@
 		private System.Windows.Forms.Label YearsLbl2;
 		private System.Windows.Forms.ComboBox CountryCMB;
 		private System.Windows.Forms.ComboBox CriteriaCMB;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label CriteriaLbl;
 	}
 }
